@@ -19,22 +19,30 @@ Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm
 
 🌐 Sử dụng Ngrok để truy cập web trên bất kỳ thiết bị nào qua Internet.
 
-🛠️ Cách chạy ứng dụng
-1. Cài đặt các thư viện cần thiết
-pip install flask pyngrok
-
-2. Cấu hình Ngrok token
+🛠️ Cách chạy code
+1. Cấu hình Ngrok token
 Tạo tài khoản tại https://dashboard.ngrok.com, sau đó lấy token và chèn vào dòng sau trong code:
 os.environ["NGROK_AUTH_TOKEN"] = "your-ngrok-token"
 
-3. Chạy ứng dụng
-python app.py
+2. Tạo file Notebook
+Mở trang web Colab và tạo file Notebook mới
+
+3. Cài thư viện
+Gõ dòng lệnh tải thư viện:
+!pip install pycryptodome
+!pip install flask pyngrok pycryptodome
+-> Bấm nút chạy để tải thư viện.
+   
+4. Chạy code
+Dán code vô rồi chạy
 Sau khi chạy, bạn sẽ thấy một đường dẫn ngrok hiển thị trong terminal như sau:
 
-📌 Truy cập web tại: https://xxxxx.ngrok.io
+📌 Truy cập web tại: NgrokTunnel: "https://xxx-xx-xx-xx-xxx.ngrok-free.app - http://localhost:5000"
+Bấm vào link để truy cập
 
 🖼️ Giao diện người dùng
 ---
+
 📤 Chọn file và thuật toán băm
 ---
 <img src="./path/to/your/screenshot.png" alt="UI Screenshot" width="600"/>
