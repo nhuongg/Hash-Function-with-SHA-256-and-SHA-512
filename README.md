@@ -1,13 +1,15 @@
 # Hash-Function-with-SHA-256-and-SHA-512
 📌 Giới thiệu
 ---
-Ứng dụng web đơn giản sử dụng Flask kết hợp với Ngrok để triển khai một giao diện cho phép người dùng tải lên tệp tin và chọn thuật toán băm SHA-256 hoặc SHA-512. Ứng dụng sẽ:
+Ứng dụng web đơn giản sử dụng Flask kết hợp với Ngrok để triển khai một giao diện cho phép người dùng tải lên tệp tin và chọn thuật toán băm SHA-256 hoặc SHA-512. 
 
-Hiển thị kết quả băm gốc.
+Ứng dụng sẽ:
 
-Tạo một phiên bản đã sửa đổi nhẹ (thêm \n) của file và hiển thị kết quả băm tương ứng.
+   Hiển thị kết quả băm gốc.
 
-Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm: chỉ một thay đổi nhỏ cũng tạo ra mã băm hoàn toàn khác.
+   Tạo một phiên bản đã sửa đổi nhẹ (thêm \n) của file và hiển thị kết quả băm tương ứng.
+
+   Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm: chỉ một thay đổi nhỏ cũng tạo ra mã băm hoàn toàn khác.
 
 🚀 Tính năng nổi bật
 ---
