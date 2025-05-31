@@ -12,6 +12,9 @@ Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm
 🚀 Tính năng nổi bật
 ---
 ✅ Giao diện web đẹp mắt, hỗ trợ cả desktop và mobile.
+<p align="center">  
+   <img src="Băm SHA256, 512/Ảnh chụp màn hình (88).png" alt="Ảnh minh họa" width="850" height="480">  
+</p>  
 
 🔐 Hỗ trợ SHA-256 và SHA-512.
 
