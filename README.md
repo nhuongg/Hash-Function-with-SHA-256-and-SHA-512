@@ -26,33 +26,52 @@ Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm
 1. Cấu hình Ngrok token
 Tạo tài khoản tại https://dashboard.ngrok.com, sau đó lấy token và chèn vào dòng sau trong code:
 os.environ["NGROK_AUTH_TOKEN"] = "your-ngrok-token"
+<p align="center">  
+   <img src="Băm SHA256, 512/screenshot_1748694058.png" alt="Ảnh minh họa" width="350" height="180">  
+</p>  
+<p align="center">  
+   <img src="Băm SHA256, 512/screenshot_1748694856.png" alt="Ảnh minh họa" width="550" height="280">  
+</p> 
 
 2. Tạo file Notebook
-Mở trang web Colab và tạo file Notebook mới
+
+   Mở trang web Colab và tạo file Notebook mới
 
 3. Cài thư viện
-Gõ dòng lệnh tải thư viện:
-!pip install pycryptodome
-!pip install flask pyngrok pycryptodome
--> Bấm nút chạy để tải thư viện.
+
+   Gõ dòng lệnh tải thư viện:
+
+   !pip install pycryptodome
+
+   !pip install flask pyngrok pycryptodome
+
+   -> Bấm nút chạy để tải thư viện.
    
 4. Chạy code
-Dán code vô rồi chạy
-Sau khi chạy, bạn sẽ thấy một đường dẫn ngrok hiển thị trong terminal như sau:
+
+   Dán code vô file Notebook rồi chạy
+
+   Sau khi chạy, bạn sẽ thấy một đường dẫn ngrok hiển thị trong terminal như sau:
 
 📌 Truy cập web tại: NgrokTunnel: "https://xxx-xx-xx-xx-xxx.ngrok-free.app - http://localhost:5000"
 Bấm vào link để truy cập
 
-🖼️ Giao diện người dùng
----
+5. Sử dụng chương trình
 
-📤 Chọn file và thuật toán băm
----
-<img src="./path/to/your/screenshot.png" alt="UI Screenshot" width="600"/>
+   Chọn file muốn băm
+<p align="center">  
+   <img src="Băm SHA256, 512/screenshot_1748693355.png" alt="Ảnh minh họa" width="450" height="280">  
+</p>  
 
-🔄 Kết quả băm
----
-Hiển thị kết quả băm của file gốc và phiên bản đã được thay đổi nhỏ.
+   Chọn SHA-256 hoặc SHA-512
+<p align="center">  
+   <img src="Băm SHA256, 512/screenshot_1748693013.png" alt="Ảnh minh họa" width="450" height="280">  
+</p>  
+
+   Kết quả
+<p align="center">  
+   <img src="Băm SHA256, 512/screenshot_1748693214.png" alt="Ảnh minh họa" width="650" height="480">  
+</p>  
 
 📚 Kỹ thuật sử dụng
 ---
@@ -64,14 +83,6 @@ Tạo cổng public: Ngrok
 
 Thuật toán băm: hashlib SHA-256, SHA-512
 
-📎 Ví dụ đầu ra
-
-Kết quả băm gốc (SHA-256):
-a8f5f167f44f4964e6c998dee827110c...
-
-Kết quả băm đã sửa đổi (SHA-256 - thêm một ký tự):
-e9d71f5ee7c92d6dc9e92ffdad17b8bd...
-
 📌 Lưu ý
 ---
 Ứng dụng không lưu trữ bất kỳ tệp tin hoặc dữ liệu người dùng nào.
@@ -82,7 +93,7 @@ Chỉ dùng cho mục đích học tập, không dùng trong các hệ thống y
 ---
 Rất hoan nghênh mọi đóng góp! Hãy tạo Pull Request hoặc Issue nếu bạn muốn thêm tính năng hoặc phát hiện lỗi.
 
-📄 Người sử hữu
+📄 Người sở hữu
 ---
 Nguyễn Văn Hưởng - Gmail: yuukiasuma12@gmail.com
 
