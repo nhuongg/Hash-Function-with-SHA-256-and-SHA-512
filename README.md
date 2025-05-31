@@ -10,6 +10,7 @@ Tạo một phiên bản đã sửa đổi nhẹ (thêm \n) của file và hiể
 Cho thấy tính kháng va chạm (collision-resistant) của thuật toán băm: chỉ một thay đổi nhỏ cũng tạo ra mã băm hoàn toàn khác.
 
 🚀 Tính năng nổi bật
+
 ✅ Giao diện web đẹp mắt, hỗ trợ cả desktop và mobile.
 
 🔐 Hỗ trợ SHA-256 và SHA-512.
